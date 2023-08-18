@@ -1,0 +1,94 @@
+/* Reset some default browser styles */
+body, h1, ul, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color to the whole page */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header section */
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+/* Style the navigation menu */
+nav ul {
+    background-color: #4CAF50;
+    overflow: hidden;
+    color: white;
+}
+
+nav ul li {
+    float: left;
+    display: inline;
+    padding: 14px 20px;
+}
+
+/* Style the main content section */
+main {
+    margin: 15px;
+    padding: 15px;
+    background-color: #ffffff;
+}
+
+/* Style the footer section */
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+/* Style the logo */
+#logo {
+    height: 100px;
+    margin-right: 30px;
+    float: left;
+}
+
+/* Clear float to ensure the header behaves properly */
+header:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Style the form */
+form {
+    margin: 20px 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
